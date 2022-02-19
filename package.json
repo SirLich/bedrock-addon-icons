@@ -3,9 +3,15 @@
     "displayName": "bedrock-addon-icons",
     "description": "Bedrock Addon Icons is an extension that provides Godot icons inside of VSCode, for the purpose of creating Bedrock addons.",
     "version": "1.0.0",
+    "publisher": "SirLich",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/SirLich/bedrock-addon-icons"
+    },
     "engines": {
         "vscode": "^1.64.0"
     },
+    "activationEvents": [],
     "icon": "images/icon.png",
     "categories": [
         "Themes"
