@@ -4,7 +4,10 @@ Bedrock Addon Icons is an extension that provides Godot icons inside of VSCode, 
 
 For example `obsidian_knife.recipe.json` will display a recipe icon.
 
-[👋 Consider joining our discord.](https://discord.gg/XjV87YN)
+ - [👋 Join us on Discord](https://discord.gg/XjV87YN)
+ - [🔗 View on GitHub](https://github.com/SirLich/bedrock-addon-icons)
+ - [🔗 View on VSCode Store](https://marketplace.visualstudio.com/items?itemName=SirLich.bedrock-addon-icons)
+
 
 ## Using this Extension
 
