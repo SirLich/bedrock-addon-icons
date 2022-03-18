@@ -79,9 +79,6 @@
 		"block.rp": {
 			"iconPath": "./icons/rp/block.svg",
 		},
-		"block": {
-			"iconPath": "./icons/bp/block.svg",
-		},
 
 // Item
 
@@ -94,7 +91,10 @@
 		"item":{
 			"iconPath": "./icons/bp/item.svg",
 		},
-
+// Dialogue
+		"dialogue.bp" :{
+			"iconPath": "./icons/bp/dialogue.svg",
+		},
 // General
 		"biome": {
 			"iconPath": "./icons/bp/biome.svg",
@@ -212,18 +212,10 @@
 		"entity.json": "entity",
 		"e.json": "entity",
 // Block
-		"block.bp.json": "block.bp",
-		"b.bp.json": "block.bp",
-		"bpb.json": "block.bp",
+		"block.json": "block.bp",
+		"b.json": "block.bp",
 
-		"block.rp.json": "block.rp",
-		"b.rp.json": "block.rp",
-		"rpb.json": "block.rp",
-
-		"block.json": "block",
-		"b.json": "block",
-
-// Block
+// Item
 		"item.bp.json": "item.bp",
 		"i.bp.json": "item.bp",
 		"bpi.json": "item.bp",
@@ -234,7 +226,10 @@
 
 		"item.json": "item",
 		"i.json": "item",
-
+// Dialogue
+		"dialogue.json": "dialogue.bp",
+		"dialog.json": "dialogue.bp",
+		"d.json": "dialogue.bp",
 
 // Misc
 		"biome.json": "biome",
@@ -290,7 +285,8 @@
 		"manifest.json": "manifest",
 		"languages.json": "language_file",
 		"language_names.json": "language_file",
-		"tick.json": "tick"
+		"tick.json": "tick",
+		"blocks.json": "block.rp",
 	},
 	"file": "file"
 }
