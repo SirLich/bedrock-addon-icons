@@ -79,9 +79,6 @@
 		"block.rp": {
 			"iconPath": "./icons/rp/block.svg",
 		},
-		"block": {
-			"iconPath": "./icons/bp/block.svg",
-		},
 
 // Item
 
@@ -212,16 +209,8 @@
 		"entity.json": "entity",
 		"e.json": "entity",
 // Block
-		"block.bp.json": "block.bp",
-		"b.bp.json": "block.bp",
-		"bpb.json": "block.bp",
-
-		"block.rp.json": "block.rp",
-		"b.rp.json": "block.rp",
-		"rpb.json": "block.rp",
-
-		"block.json": "block",
-		"b.json": "block",
+		"block.json": "block.bp",
+		"b.json": "block.bp",
 
 // Block
 		"item.bp.json": "item.bp",
@@ -290,7 +279,8 @@
 		"manifest.json": "manifest",
 		"languages.json": "language_file",
 		"language_names.json": "language_file",
-		"tick.json": "tick"
+		"tick.json": "tick",
+		"blocks.json": "block.rp",
 	},
 	"file": "file"
 }
