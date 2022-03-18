@@ -91,7 +91,10 @@
 		"item":{
 			"iconPath": "./icons/bp/item.svg",
 		},
-
+// Dialogue
+		"dialogue.bp" :{
+			"iconPath": "./icons/bp/dialogue.svg",
+		},
 // General
 		"biome": {
 			"iconPath": "./icons/bp/biome.svg",
@@ -212,7 +215,7 @@
 		"block.json": "block.bp",
 		"b.json": "block.bp",
 
-// Block
+// Item
 		"item.bp.json": "item.bp",
 		"i.bp.json": "item.bp",
 		"bpi.json": "item.bp",
@@ -223,7 +226,10 @@
 
 		"item.json": "item",
 		"i.json": "item",
-
+// Dialogue
+		"dialogue.json": "dialogue.bp",
+		"dialog.json": "dialogue.bp",
+		"d.json": "dialogue.bp",
 
 // Misc
 		"biome.json": "biome",
