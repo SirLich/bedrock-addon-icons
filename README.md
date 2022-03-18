@@ -32,14 +32,38 @@ Example:
  - `troll.entity.rp.json` : Blue (RP)
  - `troll.entity.bp.json` : Red (BP)
 
-To allow different styles of naming, there are many allowed bindings for every asset type.
- - `troll.animation.bp.json`
- - `troll.anim.bp.json`
- - `troll.bpa.jso`
+## Extension Bindings
 
+To allow different styles of naming, there are many allowed bindings for every asset type. This allows you the most flexibility in your file naming. You may manually examine `theme.json` if you would like to view all mappings, otherwise you can use the following sensible heuristic:
+
+ - The full name will always be there: `troll.entity.json`*
+ - You can specify rp or bp at the end:  `troll.entity.bp.json`* (sets color)
+ - A short version is also provided:  `troll.e.bp.json`*
+ - A second short version is usually provided, which puts pack first, with no dot:  `troll.bpe.json`*
 
 ![](./preview.png)
 
 ## Attribution
 
 This repository contains icons from Godot. [Please consider donating to them](https://godotengine.org/donate). Two icons (JS and Json) are copied from [seti](https://github.com/jesseweed/seti-ui). Both projects are MIT licensed.
+
+## Changelog
+
+### 1.0.0
+
+*No notes*
+
+### 1.0.1
+
+*No notes*
+
+### 1.0.2
+
+*No notes*
+
+### 1.0.3
+
+ - Added MIT license
+ - Added dialogue icons
+ - Added support for `blocks.json`
+ - Removed support for `*.block.rp.json` (blocks can only be defined in the BP)
