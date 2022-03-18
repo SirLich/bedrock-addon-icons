@@ -46,24 +46,3 @@ To allow different styles of naming, there are many allowed bindings for every a
 ## Attribution
 
 This repository contains icons from Godot. [Please consider donating to them](https://godotengine.org/donate). Two icons (JS and Json) are copied from [seti](https://github.com/jesseweed/seti-ui). Both projects are MIT licensed.
-
-## Changelog
-
-### 1.0.0
-
-*No notes*
-
-### 1.0.1
-
-*No notes*
-
-### 1.0.2
-
-*No notes*
-
-### 1.0.3
-
- - Added MIT license
- - Added dialogue icons
- - Added support for `blocks.json`
- - Removed support for `*.block.rp.json` (blocks can only be defined in the BP)
