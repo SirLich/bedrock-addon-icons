@@ -24,5 +24,5 @@ To run locally, you first need to install the correct VSCode Extension tooling (
 ## Releasing new Version
  - Update version in `package.json`
  - Update the `CHANGELOG.md`
- - `vsce login SirLich`
+ - `vsce login SirLich` (may not be required)
  - `vsce publish`
