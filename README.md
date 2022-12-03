@@ -25,21 +25,32 @@ Due to limitations in VSCode, this extension replaces *all icons, across the ent
 
 It was difficult to find good icons for all possible asset types. If some icons disagree with you, please [get in touch](https://discord.gg/XjV87YN). In general, *red* icons are for the behavior pack, and *blue* icons are for the resource pack.
 
-For icons that can exist in both, like entities, the icon can be red or blue depending on which pack you specify. It will show white if it can't figure it out. 
+For icons that can exist in both, like entities, the icon can be red or blue depending on which pack you specify. It will show white if it can't figure it out.
 
 Example:
- - `troll.entity.json` : White (unknown)
- - `troll.entity.rp.json` : Blue (RP)
- - `troll.entity.bp.json` : Red (BP)
+ - `troll.entity.json` : White (unknown pack)
+ - `troll.entity.rp.json` : Blue (resource pack)
+ - `troll.entity.bp.json` : Red (behavior pack)
 
 ## Extension Bindings
 
 To allow different styles of naming, there are many allowed bindings for every asset type. This allows you the most flexibility in your file naming. You may manually examine `theme.json` if you would like to view all mappings, otherwise you can use the following sensible heuristic:
 
- - The full name will always be there: `troll.entity.json`*
- - You can specify rp or bp at the end:  `troll.entity.bp.json`* (sets color)
- - A short version is also provided:  `troll.e.bp.json`*
- - A second short version is usually provided, which puts pack first, with no dot:  `troll.bpe.json`*
+
+General naming Rule:
+
+ - The full name will always be there: e.g., `troll.entity.json` and `troll.animation_controller.json`
+ - Various short versions exist as well: e.g., `troll.e.json` and `troll.ac.json`
+
+You can specify color by including 'rp' or 'bp':
+ - At the end: e.g., `troll.entity.bp.json` and `troll.e.bp.json`
+ - At the start: e.g., `troll.rp.entity.json` and `troll.rp.e.json`
+ - A second short version is usually provided, which puts pack first, with no dot: `troll.bpe.json`
+
+Lots of files are also supported, such as:
+ - tick.json
+ - manifest.json
+ - example.mcfunction
 
 ![](./preview.png)
 

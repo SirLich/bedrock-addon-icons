@@ -89,7 +89,7 @@
 			"iconPath": "./icons/rp/item.svg",
 		},
 		"item":{
-			"iconPath": "./icons/bp/item.svg",
+			"iconPath": "./icons/item.svg",
 		},
 // Dialogue
 		"dialogue.bp" :{
@@ -173,10 +173,12 @@
 // Animation Controller
 		"animation_controller.bp.json": "animation_controller.bp",
 		"bpac.json": "animation_controller.bp",
+		"bp.ac.json": "animation_controller.bp",
 		"ac.bp.json": "animation_controller.bp",
 
 		"animation_controller.rp.json": "animation_controller.rp",
 		"rpac.json": "animation_controller.rp",
+		"rp.ac.json": "animation_controller.rp",
 		"ac.rp.json": "animation_controller.rp",
 		
 		"animation_controller.json": "animation_controller",
@@ -187,11 +189,13 @@
 		"anim.bp.json": "animation.bp",
 		"a.bp.json": "animation.bp",
 		"bpa.json": "animation.bp",
+		"bp.a.json": "animation.bp",
 
 		"animation.rp.json": "animation.rp",
 		"anim.rp.json": "animation.rp",
 		"a.rp.json": "animation.rp",
 		"rpa.json": "animation.rp",
+		"rp.a.json": "animation.rp",
 
 		"animation.json": "animation",
 		"anim.json": "animation",
@@ -201,13 +205,15 @@
 
 		"entity.bp.json": "entity.bp",
 		"e.bp.json": "entity.bp",
-		"se.json": "entity.bp",
+		"se.json": "entity.bp", // Server Entity
 		"bpe.json": "entity.bp",
+		"bp.e.json": "entity.bp",
 
 		"entity.rp.json": "entity.rp",
 		"e.rp.json": "entity.rp",
-		"ce.json": "entity.rp",
+		"ce.json": "entity.rp", // Client Entity
 		"rpe.json": "entity.rp",
+		"rp.e.json": "entity.rp",
 
 		"entity.json": "entity",
 		"e.json": "entity",
@@ -219,10 +225,12 @@
 		"item.bp.json": "item.bp",
 		"i.bp.json": "item.bp",
 		"bpi.json": "item.bp",
+		"bp.i.json": "item.bp",
 
 		"item.rp.json": "item.rp",
 		"i.rp.json": "item.rp",
 		"rpi.json": "item.rp",
+		"rp.i.json": "item.rp",
 
 		"item.json": "item",
 		"i.json": "item",
@@ -236,7 +244,7 @@
 		"camera.json": "camera",
 
 		"feature.json": "feature",
-		"f.json": "feature",
+		"ft.json": "feature",
 
 		"feature_rule.json": "feature_rule",
 		"fr.json": "feature_rule",
@@ -246,9 +254,10 @@
 		"at.json": "attachable",
 
 		"fog.json": "fog",
-
+		"f.json": "fog",
 
 		"geo.json": "model",
+		"geometry.json": "model",
 		"model.json": "model",
 		"g.json": "model",
 
@@ -271,15 +280,16 @@
 		"loot_table.json": "loot_table",
 		"lt.json": "loot_table",
 		"loot.json": "loot_table",
+		"table.json": "loot_table",
 
 		"trade_table.json": "trade_table",
 		"trade.json": "trade_table",
-		"tt.json": "trade_table",
+		"tt.json": "trade_table"
 	},
 	"fileNames": {
 		"player.rp.json": "player.rp",
 		"player.bp.json": "player.bp",
-		"player": "player",
+		"player.json": "player",
 		"sound_definitions.json": "sound_definitions",
 		"music_definitions.json": "music_definitions",
 		"manifest.json": "manifest",
