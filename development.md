@@ -11,10 +11,11 @@ The project is structured fairly simply. The `icons` folder contains SVG images,
 
 ## Adding a new Icon
 In general, to add a new icon, follow these steps:
- - Add SV image into `icons`
+ - Add SVG image into `icons`
  - Manually edit the SVG data to use the correct colors (blue for RP, red for BP). There is a VSCode extension for previewing.
  - Edit `theme.json` with an `iconDefinition`
  - Edit `theme.json` with either `fileExtension` or `fileName` data, as desired
+ - Add your icon into 'file-icon-preview'
  - Run locally to test
 
 ## Running Locally
