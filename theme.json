@@ -10,6 +10,9 @@
 		"javascript": {
 			"iconPath": "./icons/javascript.svg",
 		},
+		"typescript": {
+			"iconPath": "./icons/typescript.svg",
+		},
 		"tick": {
 			"iconPath": "./icons/bp/tick.svg",
 		},
@@ -153,6 +156,7 @@
 // Extensions
 		"json": "json",
 		"js": "javascript",
+		"ts": "typescript",
 
 		"lang": "lang",
 

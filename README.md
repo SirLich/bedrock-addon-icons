@@ -56,4 +56,4 @@ Lots of files are also supported, such as:
 
 ## Attribution
 
-This repository contains icons from Godot. [Please consider donating to them](https://godotengine.org/donate). Two icons (JS and Json) are copied from [seti](https://github.com/jesseweed/seti-ui). Both projects are MIT licensed.
+This repository contains icons from Godot. [Please consider donating to them](https://godotengine.org/donate). Two icons (JS, TS and Json) are copied from [seti](https://github.com/jesseweed/seti-ui). Both projects are MIT licensed.
