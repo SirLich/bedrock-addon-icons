@@ -33,3 +33,7 @@ All notable changes to the "bedrock-addon-icons" extension will be documented in
  - Added 'table' to loot table
  - Added 'geometry' to geometry
  - Added a folder for previewing the icons
+
+## 1.0.5
+ 
+ - Added support for typescript files
