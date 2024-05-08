@@ -37,3 +37,14 @@ All notable changes to the "bedrock-addon-icons" extension will be documented in
 ## 1.0.5
  
  - Added support for typescript files
+
+## 1.0.6 
+
+ - Added support for material files
+ - Added support for jpg files
+ - Added 'bp_ac' to behavior packs animation controllers
+ - Added 'bp_anim' to behavior packs animation animations
+ - Added 'bp_item' to behavior packs items
+ - Added 'behavior' to behavior entity files
+ - Added 'rp_ac' to resource packs animation controllers
+ - Added 'rp_item' to resource packs items
