@@ -1,6 +1,7 @@
+//prettier-ignore
 {
 	"iconDefinitions": {
-// Main
+		// Main
 		"file": {
 			"iconPath": "./icons/file.svg",
 		},
@@ -16,22 +17,22 @@
 		"tick": {
 			"iconPath": "./icons/bp/tick.svg",
 		},
-		"sound":{
+		"sound": {
 			"iconPath": "./icons/rp/sound.svg",
 		},
-		"image":{
+		"image": {
 			"iconPath": "./icons/rp/image.svg",
 		},
-		"manifest":{
+		"manifest": {
 			"iconPath": "./icons/manifest.svg",
 		},
-		"sound_definitions":{
+		"sound_definitions": {
 			"iconPath": "./icons/sound_definitions.svg",
 		},
-		"music_definitions":{
+		"music_definitions": {
 			"iconPath": "./icons/music_definitions.svg",
 		},
-// Animation Controller
+		// Animation Controller
 		"animation_controller.rp": {
 			"iconPath": "./icons/rp/animation_controller.svg",
 		},
@@ -42,18 +43,18 @@
 			"iconPath": "./icons/animation_controller.svg",
 		},
 
-// Animation
-		"animation.bp":{
+		// Animation
+		"animation.bp": {
 			"iconPath": "./icons/bp/animation.svg",
 		},
-		"animation.rp":{
+		"animation.rp": {
 			"iconPath": "./icons/rp/animation.svg",
 		},
-		"animation":{
+		"animation": {
 			"iconPath": "./icons/animation.svg",
 		},
 
-// Entity
+		// Entity
 		"entity.bp": {
 			"iconPath": "./icons/bp/entity.svg",
 		},
@@ -64,18 +65,18 @@
 			"iconPath": "./icons/entity.svg",
 		},
 
-// Player
-		"player.rp":{
+		// Player
+		"player.rp": {
 			"iconPath": "./icons/rp/player.svg",
 		},
-		"player.bp":{
+		"player.bp": {
 			"iconPath": "./icons/bp/player.svg",
 		},
-		"player":{
+		"player": {
 			"iconPath": "./icons/player.svg",
 		},
 
-// Block
+		// Block
 		"block.bp": {
 			"iconPath": "./icons/bp/block.svg",
 		},
@@ -83,77 +84,77 @@
 			"iconPath": "./icons/rp/block.svg",
 		},
 
-// Item
+		// Item
 
-		"item.bp":{
+		"item.bp": {
 			"iconPath": "./icons/bp/item.svg",
 		},
-		"item.rp":{
+		"item.rp": {
 			"iconPath": "./icons/rp/item.svg",
 		},
-		"item":{
+		"item": {
 			"iconPath": "./icons/item.svg",
 		},
-// Dialogue
-		"dialogue.bp" :{
+		// Dialogue
+		"dialogue.bp": {
 			"iconPath": "./icons/bp/dialogue.svg",
 		},
-// General
+		// General
 		"biome": {
 			"iconPath": "./icons/bp/biome.svg",
 		},
-		"feature":{
+		"feature": {
 			"iconPath": "./icons/bp/feature.svg",
 		},
-		"feature_rule":{
+		"feature_rule": {
 			"iconPath": "./icons/bp/feature_rule.svg",
 		},
 		"camera": {
 			"iconPath": "./icons/bp/camera.svg",
 		},
-		"spawn_rule":{
+		"spawn_rule": {
 			"iconPath": "./icons/bp/spawn_rule.svg",
 		},
-		"lang":{
+		"lang": {
 			"iconPath": "./icons/lang.svg",
 		},
-		"language_file":{
+		"language_file": {
 			"iconPath": "./icons/language_file.svg",
 		},
-		"mcfunction":{
+		"mcfunction": {
 			"iconPath": "./icons/bp/mcfunction.svg",
 		},
-		"mcstructure":{
+		"mcstructure": {
 			"iconPath": "./icons/bp/mcstructure.svg",
 		},
-		"model":{
+		"model": {
 			"iconPath": "./icons/rp/model.svg",
 		},
-		"render_controller":{
+		"render_controller": {
 			"iconPath": "./icons/rp/render_controller.svg",
 		},
-		"fog":{
+		"fog": {
 			"iconPath": "./icons/rp/fog.svg",
 		},
-		"attachable":{
+		"attachable": {
 			"iconPath": "./icons/rp/attachable.svg",
 		},
-		"particle":{
+		"particle": {
 			"iconPath": "./icons/rp/particle.svg",
 		},
-		"crafting_recipe":{
+		"crafting_recipe": {
 			"iconPath": "./icons/bp/crafting_recipe.svg",
-		},	
-		"loot_table":{
+		},
+		"loot_table": {
 			"iconPath": "./icons/bp/loot_table.svg",
 		},
-		"trade_table":{
+		"trade_table": {
 			"iconPath": "./icons/bp/trade_table.svg",
 		}
 	},
 	"fileExtensions": {
 
-// Extensions
+		// Extensions
 		"json": "json",
 		"js": "javascript",
 		"ts": "typescript",
@@ -163,37 +164,40 @@
 		"mcfunction": "mcfunction",
 		"mcstructure": "mcstructure",
 
-// Sounds
+		// Sounds
 		"wav": "sound",
 		"ogg": "sound",
 		"fsb": "sound",
 		"mp4": "sound",
 
-// Images
+		// Images
 		"png": "image",
 		"tga": "image",
+		"jpg": "image",
 
 
-// Animation Controller
+		// Animation Controller
 		"animation_controller.bp.json": "animation_controller.bp",
 		"bpac.json": "animation_controller.bp",
 		"bp.ac.json": "animation_controller.bp",
 		"ac.bp.json": "animation_controller.bp",
+		"bp_ac.json": "animation_controller.bp",
 
 		"animation_controller.rp.json": "animation_controller.rp",
 		"rpac.json": "animation_controller.rp",
 		"rp.ac.json": "animation_controller.rp",
 		"ac.rp.json": "animation_controller.rp",
-		
+
 		"animation_controller.json": "animation_controller",
 		"ac.json": "animation_controller",
 
-// Animation
+		// Animation
 		"animation.bp.json": "animation.bp",
 		"anim.bp.json": "animation.bp",
 		"a.bp.json": "animation.bp",
 		"bpa.json": "animation.bp",
 		"bp.a.json": "animation.bp",
+		"bp_anim.json": "animation.bp",
 
 		"animation.rp.json": "animation.rp",
 		"anim.rp.json": "animation.rp",
@@ -205,7 +209,7 @@
 		"anim.json": "animation",
 		"a.json": "animation",
 
-// Entity
+		// Entity
 
 		"entity.bp.json": "entity.bp",
 		"e.bp.json": "entity.bp",
@@ -221,15 +225,16 @@
 
 		"entity.json": "entity",
 		"e.json": "entity",
-// Block
+		// Block
 		"block.json": "block.bp",
 		"b.json": "block.bp",
 
-// Item
+		// Item
 		"item.bp.json": "item.bp",
 		"i.bp.json": "item.bp",
 		"bpi.json": "item.bp",
 		"bp.i.json": "item.bp",
+		"bp_item.json": "item.bp",
 
 		"item.rp.json": "item.rp",
 		"i.rp.json": "item.rp",
@@ -238,12 +243,12 @@
 
 		"item.json": "item",
 		"i.json": "item",
-// Dialogue
+		// Dialogue
 		"dialogue.json": "dialogue.bp",
 		"dialog.json": "dialogue.bp",
 		"d.json": "dialogue.bp",
 
-// Misc
+		// Misc
 		"biome.json": "biome",
 		"camera.json": "camera",
 
