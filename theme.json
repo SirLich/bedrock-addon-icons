@@ -121,6 +121,9 @@
 		"language_file": {
 			"iconPath": "./icons/language_file.svg",
 		},
+		"material": {
+			"iconPath": "./icons/rp/material.svg",
+		},
 		"mcfunction": {
 			"iconPath": "./icons/bp/mcfunction.svg",
 		},
@@ -163,6 +166,7 @@
 
 		"mcfunction": "mcfunction",
 		"mcstructure": "mcstructure",
+		"material": "mcstructure",
 
 		// Sounds
 		"wav": "sound",
