@@ -156,7 +156,6 @@
 		}
 	},
 	"fileExtensions": {
-
 		// Extensions
 		"json": "json",
 		"js": "javascript",
@@ -166,7 +165,8 @@
 
 		"mcfunction": "mcfunction",
 		"mcstructure": "mcstructure",
-		"material": "mcstructure",
+
+		"material": "material",
 
 		// Sounds
 		"wav": "sound",
@@ -179,7 +179,6 @@
 		"tga": "image",
 		"jpg": "image",
 
-
 		// Animation Controller
 		"animation_controller.bp.json": "animation_controller.bp",
 		"bpac.json": "animation_controller.bp",
@@ -191,6 +190,7 @@
 		"rpac.json": "animation_controller.rp",
 		"rp.ac.json": "animation_controller.rp",
 		"ac.rp.json": "animation_controller.rp",
+		"rp_ac.json": "animation_controller.rp",
 
 		"animation_controller.json": "animation_controller",
 		"ac.json": "animation_controller",
@@ -220,6 +220,7 @@
 		"se.json": "entity.bp", // Server Entity
 		"bpe.json": "entity.bp",
 		"bp.e.json": "entity.bp",
+		"behavior.json": "entity.bp",
 
 		"entity.rp.json": "entity.rp",
 		"e.rp.json": "entity.rp",
@@ -244,6 +245,7 @@
 		"i.rp.json": "item.rp",
 		"rpi.json": "item.rp",
 		"rp.i.json": "item.rp",
+		"rp_item.json": "item.rp",
 
 		"item.json": "item",
 		"i.json": "item",
